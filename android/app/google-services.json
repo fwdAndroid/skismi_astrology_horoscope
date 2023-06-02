@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262586285411",
+    "project_id": "skismihoroscopeastrology",
+    "storage_bucket": "skismihoroscopeastrology.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262586285411:android:f17f27ee817958c18ae756",
+        "android_client_info": {
+          "package_name": "com.example.skismi_astrology_horoscope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeNj8bXfDpuo-eGlIYkj5ZUsD8SE0Wpmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
