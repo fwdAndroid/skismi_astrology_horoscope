@@ -36,7 +36,7 @@ class _ExpertsState extends State<Experts> {
             color: Colors.white,
           ),
         ),
-        title: Text("Skismi Horoscopes and Astrology",
+        title: Text("Skismi: Horoscope and Astrology",
             style:
                 GoogleFonts.roboto(fontWeight: FontWeight.bold, fontSize: 18)),
         backgroundColor: Colors.black,
