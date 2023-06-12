@@ -140,6 +140,38 @@ class _MainScreenState extends State<MainScreen> {
                               SizedBox(
                                 height: 10,
                               ),
+                              TextButton(
+                                child:
+                                    Text('Uplifting "Oprah" Horoscope Reading'),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    'Uplifting "Oprah" Horoscope Reading',
+                                                url:
+                                                    "https://skismi.com/oprah-horoscope/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Sarcastic Horoscope Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Sarcastic Horoscope Reading",
+                                                url:
+                                                    "https://skismi.com/sarcastic-horoscope/",
+                                              )));
+                                },
+                              ),
                             ],
                           ),
                         ),
