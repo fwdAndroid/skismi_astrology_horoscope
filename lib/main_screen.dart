@@ -172,6 +172,74 @@ class _MainScreenState extends State<MainScreen> {
                                               )));
                                 },
                               ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Wildcard Horoscope Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Wildcard Horoscope Reading",
+                                                url:
+                                                    "https://skismi.com/horoscope-wildcard/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Past Life Horoscope Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Past Life Horoscope Reading",
+                                                url:
+                                                    "https://skismi.com/horoscope-past/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Spirit Animal Horoscope Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Spirit Animal Horoscope Reading",
+                                                url:
+                                                    "https://skismi.com/horoscope-spirit/",
+                                              )));
+                                },
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              TextButton(
+                                child: Text("Elemental Horoscope Reading"),
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (builder) => MyWidget(
+                                                title:
+                                                    "Elemental Horoscope Reading",
+                                                url:
+                                                    "https://skismi.com/horoscope-elemental /",
+                                              )));
+                                },
+                              ),
                             ],
                           ),
                         ),
