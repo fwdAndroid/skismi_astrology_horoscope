@@ -143,6 +143,15 @@ class _MyWidgetState extends State<MyWidget> {
                   Navigator.pop(context);
                 },
               ),
+              ElevatedButton(
+                child: Text("Print"),
+                onPressed: () async {
+                  if (webViewController != null) {
+                    webViewController!.printCurrentPage();
+                    // Handle the PDF data here (e.g., save it or open it with a PDF viewer)
+                  }
+                },
+              ),
             ],
           ),
         ])));
