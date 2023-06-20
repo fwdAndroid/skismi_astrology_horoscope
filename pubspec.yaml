@@ -49,6 +49,7 @@ dependencies:
   url_launcher: ^6.1.11
   uuid: ^3.0.7
   flutter_launcher_icons: "^0.13.1"
+  printing: ^5.11.0
 
 
 dev_dependencies:
